@@ -130,11 +130,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="App.cpp" />
+    <ClCompile Include="src\PlayerCharacter\PlayerCharacter.cpp" />
+    <ClCompile Include="src\Entity.cpp" />
+    <ClCompile Include="src\ResourceManager.cpp" />
+    <ClCompile Include="src\SceneNode.cpp" />
+    <ClCompile Include="src\App.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Tile.cpp" />
+    <ClCompile Include="src\TileMap.cpp" />
+    <ClCompile Include="src\World.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\PlayerCharacter\PlayerCharacter.h" />
+    <ClInclude Include="src\Entity.h" />
+    <ClInclude Include="src\ResourceManager.h" />
+    <ClInclude Include="src\SceneNode.h" />
+    <ClInclude Include="src\ResourceHolder.h" />
     <ClInclude Include="src\App.h" />
+    <ClInclude Include="src\Tile.h" />
+    <ClInclude Include="src\TileMap.h" />
+    <ClInclude Include="src\Utils\Utils.h" />
+    <ClInclude Include="src\World.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
